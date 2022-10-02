@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98D8ED7D28E9A945003611C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8ED7C28E9A945003611C3 /* AppDelegate.swift */; };
+		98D8ED8128E9A945003611C3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED7F28E9A945003611C3 /* Main.html */; };
+		98D8ED8328E9A945003611C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED8228E9A945003611C3 /* Icon.png */; };
+		98D8ED8528E9A945003611C3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED8428E9A945003611C3 /* Style.css */; };
+		98D8ED8728E9A945003611C3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED8628E9A945003611C3 /* Script.js */; };
+		98D8ED8928E9A945003611C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8ED8828E9A945003611C3 /* ViewController.swift */; };
+		98D8ED8C28E9A945003611C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED8A28E9A945003611C3 /* Main.storyboard */; };
+		98D8ED8E28E9A946003611C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED8D28E9A946003611C3 /* Assets.xcassets */; };
+		98D8ED9A28E9A947003611C3 /* twitch_1080pTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8ED9928E9A947003611C3 /* twitch_1080pTests.swift */; };
+		98D8EDA428E9A947003611C3 /* twitch_1080pUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8EDA328E9A947003611C3 /* twitch_1080pUITests.swift */; };
+		98D8EDA628E9A947003611C3 /* twitch_1080pUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8EDA528E9A947003611C3 /* twitch_1080pUITestsLaunchTests.swift */; };
+		98D8EDAC28E9A947003611C3 /* twitch-1080p Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 98D8EDAB28E9A947003611C3 /* twitch-1080p Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		98D8EDB128E9A947003611C3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8EDB028E9A947003611C3 /* SafariWebExtensionHandler.swift */; };
+		98D8EDB428E9A947003611C3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB328E9A947003611C3 /* _locales */; };
+		98D8EDB628E9A947003611C3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB528E9A947003611C3 /* images */; };
+		98D8EDB828E9A947003611C3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB728E9A947003611C3 /* manifest.json */; };
+		98D8EDBA28E9A947003611C3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB928E9A947003611C3 /* background.js */; };
+		98D8EDBC28E9A947003611C3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDBB28E9A947003611C3 /* content.js */; };
+		98D8EDBE28E9A947003611C3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDBD28E9A947003611C3 /* popup.html */; };
+		98D8EDC028E9A947003611C3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDBF28E9A947003611C3 /* popup.css */; };
+		98D8EDC228E9A947003611C3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDC128E9A947003611C3 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D8ED9628E9A947003611C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D8ED7128E9A944003611C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D8ED7828E9A945003611C3;
+			remoteInfo = "twitch-1080p";
+		};
+		98D8EDA028E9A947003611C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D8ED7128E9A944003611C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D8ED7828E9A945003611C3;
+			remoteInfo = "twitch-1080p";
+		};
+		98D8EDAD28E9A947003611C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D8ED7128E9A944003611C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D8EDAA28E9A947003611C3;
+			remoteInfo = "twitch-1080p Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		98D8EDCA28E9A947003611C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				98D8EDAC28E9A947003611C3 /* twitch-1080p Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		98D8ED7928E9A945003611C3 /* twitch-1080p.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitch-1080p.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8ED7C28E9A945003611C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98D8ED8028E9A945003611C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		98D8ED8228E9A945003611C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		98D8ED8428E9A945003611C3 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		98D8ED8628E9A945003611C3 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		98D8ED8828E9A945003611C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98D8ED8B28E9A945003611C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98D8ED8D28E9A946003611C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98D8ED8F28E9A946003611C3 /* twitch_1080p.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = twitch_1080p.entitlements; sourceTree = "<group>"; };
+		98D8ED9028E9A946003611C3 /* twitch-1080p.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "twitch-1080p.entitlements"; sourceTree = "<group>"; };
+		98D8ED9528E9A947003611C3 /* twitch-1080pTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "twitch-1080pTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8ED9928E9A947003611C3 /* twitch_1080pTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitch_1080pTests.swift; sourceTree = "<group>"; };
+		98D8ED9F28E9A947003611C3 /* twitch-1080pUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "twitch-1080pUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8EDA328E9A947003611C3 /* twitch_1080pUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitch_1080pUITests.swift; sourceTree = "<group>"; };
+		98D8EDA528E9A947003611C3 /* twitch_1080pUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitch_1080pUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98D8EDAB28E9A947003611C3 /* twitch-1080p Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "twitch-1080p Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8EDB028E9A947003611C3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		98D8EDB328E9A947003611C3 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		98D8EDB528E9A947003611C3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		98D8EDB728E9A947003611C3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		98D8EDB928E9A947003611C3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		98D8EDBB28E9A947003611C3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		98D8EDBD28E9A947003611C3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		98D8EDBF28E9A947003611C3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		98D8EDC128E9A947003611C3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		98D8EDC328E9A947003611C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D8EDC428E9A947003611C3 /* twitch_1080p_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = twitch_1080p_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D8ED7628E9A945003611C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8ED9228E9A947003611C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8ED9C28E9A947003611C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8EDA828E9A947003611C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D8ED7028E9A944003611C3 = {
+			isa = PBXGroup;
+			children = (
+				98D8ED7B28E9A945003611C3 /* twitch-1080p */,
+				98D8ED9828E9A947003611C3 /* twitch-1080pTests */,
+				98D8EDA228E9A947003611C3 /* twitch-1080pUITests */,
+				98D8EDAF28E9A947003611C3 /* twitch-1080p Extension */,
+				98D8ED7A28E9A945003611C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D8ED7A28E9A945003611C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D8ED7928E9A945003611C3 /* twitch-1080p.app */,
+				98D8ED9528E9A947003611C3 /* twitch-1080pTests.xctest */,
+				98D8ED9F28E9A947003611C3 /* twitch-1080pUITests.xctest */,
+				98D8EDAB28E9A947003611C3 /* twitch-1080p Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D8ED7B28E9A945003611C3 /* twitch-1080p */ = {
+			isa = PBXGroup;
+			children = (
+				98D8ED7C28E9A945003611C3 /* AppDelegate.swift */,
+				98D8ED8828E9A945003611C3 /* ViewController.swift */,
+				98D8ED8A28E9A945003611C3 /* Main.storyboard */,
+				98D8ED8D28E9A946003611C3 /* Assets.xcassets */,
+				98D8ED8F28E9A946003611C3 /* twitch_1080p.entitlements */,
+				98D8ED9028E9A946003611C3 /* twitch-1080p.entitlements */,
+				98D8ED7E28E9A945003611C3 /* Resources */,
+			);
+			path = "twitch-1080p";
+			sourceTree = "<group>";
+		};
+		98D8ED7E28E9A945003611C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98D8ED7F28E9A945003611C3 /* Main.html */,
+				98D8ED8228E9A945003611C3 /* Icon.png */,
+				98D8ED8428E9A945003611C3 /* Style.css */,
+				98D8ED8628E9A945003611C3 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98D8ED9828E9A947003611C3 /* twitch-1080pTests */ = {
+			isa = PBXGroup;
+			children = (
+				98D8ED9928E9A947003611C3 /* twitch_1080pTests.swift */,
+			);
+			path = "twitch-1080pTests";
+			sourceTree = "<group>";
+		};
+		98D8EDA228E9A947003611C3 /* twitch-1080pUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98D8EDA328E9A947003611C3 /* twitch_1080pUITests.swift */,
+				98D8EDA528E9A947003611C3 /* twitch_1080pUITestsLaunchTests.swift */,
+			);
+			path = "twitch-1080pUITests";
+			sourceTree = "<group>";
+		};
+		98D8EDAF28E9A947003611C3 /* twitch-1080p Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D8EDB028E9A947003611C3 /* SafariWebExtensionHandler.swift */,
+				98D8EDC328E9A947003611C3 /* Info.plist */,
+				98D8EDC428E9A947003611C3 /* twitch_1080p_Extension.entitlements */,
+				98D8EDB228E9A947003611C3 /* Resources */,
+			);
+			path = "twitch-1080p Extension";
+			sourceTree = "<group>";
+		};
+		98D8EDB228E9A947003611C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98D8EDB328E9A947003611C3 /* _locales */,
+				98D8EDB528E9A947003611C3 /* images */,
+				98D8EDB728E9A947003611C3 /* manifest.json */,
+				98D8EDB928E9A947003611C3 /* background.js */,
+				98D8EDBB28E9A947003611C3 /* content.js */,
+				98D8EDBD28E9A947003611C3 /* popup.html */,
+				98D8EDBF28E9A947003611C3 /* popup.css */,
+				98D8EDC128E9A947003611C3 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D8ED7828E9A945003611C3 /* twitch-1080p */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8EDCB28E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080p" */;
+			buildPhases = (
+				98D8ED7528E9A945003611C3 /* Sources */,
+				98D8ED7628E9A945003611C3 /* Frameworks */,
+				98D8ED7728E9A945003611C3 /* Resources */,
+				98D8EDCA28E9A947003611C3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D8EDAE28E9A947003611C3 /* PBXTargetDependency */,
+			);
+			name = "twitch-1080p";
+			productName = "twitch-1080p";
+			productReference = 98D8ED7928E9A945003611C3 /* twitch-1080p.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98D8ED9428E9A947003611C3 /* twitch-1080pTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8EDCE28E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080pTests" */;
+			buildPhases = (
+				98D8ED9128E9A947003611C3 /* Sources */,
+				98D8ED9228E9A947003611C3 /* Frameworks */,
+				98D8ED9328E9A947003611C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D8ED9728E9A947003611C3 /* PBXTargetDependency */,
+			);
+			name = "twitch-1080pTests";
+			productName = "twitch-1080pTests";
+			productReference = 98D8ED9528E9A947003611C3 /* twitch-1080pTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D8ED9E28E9A947003611C3 /* twitch-1080pUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8EDD128E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080pUITests" */;
+			buildPhases = (
+				98D8ED9B28E9A947003611C3 /* Sources */,
+				98D8ED9C28E9A947003611C3 /* Frameworks */,
+				98D8ED9D28E9A947003611C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D8EDA128E9A947003611C3 /* PBXTargetDependency */,
+			);
+			name = "twitch-1080pUITests";
+			productName = "twitch-1080pUITests";
+			productReference = 98D8ED9F28E9A947003611C3 /* twitch-1080pUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		98D8EDAA28E9A947003611C3 /* twitch-1080p Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8EDC728E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080p Extension" */;
+			buildPhases = (
+				98D8EDA728E9A947003611C3 /* Sources */,
+				98D8EDA828E9A947003611C3 /* Frameworks */,
+				98D8EDA928E9A947003611C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "twitch-1080p Extension";
+			productName = "twitch-1080p Extension";
+			productReference = 98D8EDAB28E9A947003611C3 /* twitch-1080p Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D8ED7128E9A944003611C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					98D8ED7828E9A945003611C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					98D8ED9428E9A947003611C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 98D8ED7828E9A945003611C3;
+					};
+					98D8ED9E28E9A947003611C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 98D8ED7828E9A945003611C3;
+					};
+					98D8EDAA28E9A947003611C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98D8ED7028E9A944003611C3;
+			productRefGroup = 98D8ED7A28E9A945003611C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D8ED7828E9A945003611C3 /* twitch-1080p */,
+				98D8ED9428E9A947003611C3 /* twitch-1080pTests */,
+				98D8ED9E28E9A947003611C3 /* twitch-1080pUITests */,
+				98D8EDAA28E9A947003611C3 /* twitch-1080p Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D8ED7728E9A945003611C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8ED8328E9A945003611C3 /* Icon.png in Resources */,
+				98D8ED8C28E9A945003611C3 /* Main.storyboard in Resources */,
+				98D8ED8728E9A945003611C3 /* Script.js in Resources */,
+				98D8ED8128E9A945003611C3 /* Main.html in Resources */,
+				98D8ED8E28E9A946003611C3 /* Assets.xcassets in Resources */,
+				98D8ED8528E9A945003611C3 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8ED9328E9A947003611C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8ED9D28E9A947003611C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8EDA928E9A947003611C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8EDBA28E9A947003611C3 /* background.js in Resources */,
+				98D8EDC028E9A947003611C3 /* popup.css in Resources */,
+				98D8EDBE28E9A947003611C3 /* popup.html in Resources */,
+				98D8EDB628E9A947003611C3 /* images in Resources */,
+				98D8EDB828E9A947003611C3 /* manifest.json in Resources */,
+				98D8EDB428E9A947003611C3 /* _locales in Resources */,
+				98D8EDBC28E9A947003611C3 /* content.js in Resources */,
+				98D8EDC228E9A947003611C3 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D8ED7528E9A945003611C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8ED8928E9A945003611C3 /* ViewController.swift in Sources */,
+				98D8ED7D28E9A945003611C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8ED9128E9A947003611C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8ED9A28E9A947003611C3 /* twitch_1080pTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8ED9B28E9A947003611C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8EDA428E9A947003611C3 /* twitch_1080pUITests.swift in Sources */,
+				98D8EDA628E9A947003611C3 /* twitch_1080pUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8EDA728E9A947003611C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8EDB128E9A947003611C3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D8ED9728E9A947003611C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D8ED7828E9A945003611C3 /* twitch-1080p */;
+			targetProxy = 98D8ED9628E9A947003611C3 /* PBXContainerItemProxy */;
+		};
+		98D8EDA128E9A947003611C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D8ED7828E9A945003611C3 /* twitch-1080p */;
+			targetProxy = 98D8EDA028E9A947003611C3 /* PBXContainerItemProxy */;
+		};
+		98D8EDAE28E9A947003611C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D8EDAA28E9A947003611C3 /* twitch-1080p Extension */;
+			targetProxy = 98D8EDAD28E9A947003611C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98D8ED7F28E9A945003611C3 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D8ED8028E9A945003611C3 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		98D8ED8A28E9A945003611C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D8ED8B28E9A945003611C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D8EDC528E9A947003611C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98D8EDC628E9A947003611C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		98D8EDC828E9A947003611C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "twitch-1080p Extension/twitch_1080p_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twitch-1080p Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080p.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		98D8EDC928E9A947003611C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "twitch-1080p Extension/twitch_1080p_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twitch-1080p Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080p.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		98D8EDCC28E9A947003611C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "twitch-1080p/twitch-1080p.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080p";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		98D8EDCD28E9A947003611C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "twitch-1080p/twitch-1080p.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080p";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		98D8EDCF28E9A947003611C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080pTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitch-1080p.app/Contents/MacOS/twitch-1080p";
+			};
+			name = Debug;
+		};
+		98D8EDD028E9A947003611C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080pTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitch-1080p.app/Contents/MacOS/twitch-1080p";
+			};
+			name = Release;
+		};
+		98D8EDD228E9A947003611C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080pUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "twitch-1080p";
+			};
+			name = Debug;
+		};
+		98D8EDD328E9A947003611C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556F5FXFM6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080pUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "twitch-1080p";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8EDC528E9A947003611C3 /* Debug */,
+				98D8EDC628E9A947003611C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8EDC728E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080p Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8EDC828E9A947003611C3 /* Debug */,
+				98D8EDC928E9A947003611C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8EDCB28E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080p" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8EDCC28E9A947003611C3 /* Debug */,
+				98D8EDCD28E9A947003611C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8EDCE28E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080pTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8EDCF28E9A947003611C3 /* Debug */,
+				98D8EDD028E9A947003611C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8EDD128E9A947003611C3 /* Build configuration list for PBXNativeTarget "twitch-1080pUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8EDD228E9A947003611C3 /* Debug */,
+				98D8EDD328E9A947003611C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D8ED7128E9A944003611C3 /* Project object */;
+}
