@@ -72,6 +72,7 @@
 		9880A8FE28E9B75B00982854 /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
 		9880A90028E9E60A00982854 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		9880A90128E9E60A00982854 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = ko; path = ../ko.lproj/Main.html; sourceTree = "<group>"; };
+		9880A90228E9EF0300982854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		98D8ED7928E9A945003611C3 /* twitch-1080p.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitch-1080p.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D8ED7C28E9A945003611C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D8ED8028E9A945003611C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 		98D8ED7B28E9A945003611C3 /* twitch-1080p */ = {
 			isa = PBXGroup;
 			children = (
+				9880A90228E9EF0300982854 /* Info.plist */,
 				98D8ED7C28E9A945003611C3 /* AppDelegate.swift */,
 				98D8ED8828E9A945003611C3 /* ViewController.swift */,
 				98D8ED8A28E9A945003611C3 /* Main.storyboard */,
@@ -324,7 +326,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p1" */;
+			buildConfigurationList = 98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -591,7 +593,7 @@
 				CODE_SIGN_ENTITLEMENTS = "twitch-1080p Extension/twitch_1080p_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				DEVELOPMENT_TEAM = 0000000000;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "twitch-1080p Extension/Info.plist";
@@ -623,7 +625,7 @@
 				CODE_SIGN_ENTITLEMENTS = "twitch-1080p Extension/twitch_1080p_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				DEVELOPMENT_TEAM = 0000000000;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "twitch-1080p Extension/Info.plist";
@@ -658,11 +660,13 @@
 				CODE_SIGN_ENTITLEMENTS = "twitch-1080p/twitch-1080p.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 0000000000;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twitch-1080p/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -671,7 +675,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -694,11 +698,13 @@
 				CODE_SIGN_ENTITLEMENTS = "twitch-1080p/twitch-1080p.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 0000000000;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twitch-1080p/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -707,7 +713,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -728,7 +734,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				DEVELOPMENT_TEAM = 0000000000;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
@@ -747,7 +753,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				DEVELOPMENT_TEAM = 0000000000;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
@@ -765,7 +771,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				DEVELOPMENT_TEAM = 0000000000;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080pUITests";
@@ -782,7 +788,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 556F5FXFM6;
+				DEVELOPMENT_TEAM = 0000000000;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.kwabang.twitch-1080pUITests";
@@ -796,7 +802,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p1" */ = {
+		98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98D8EDC528E9A947003611C3 /* Debug */,

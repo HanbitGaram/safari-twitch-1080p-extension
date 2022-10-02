@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Twitch 1080p 전환기",
+        "description": "망 중립성으로 인하여 한국에서는 Twitch의 1080p 화질 시청이 불가능하나, 이를 가능케한 사파리 확장프로그램 입니다."
+    },
+    "extension_description": {
+        "message": "이 파일은 트위치 1080p 변환기입니다. 맥 환경의 사파리에 설치하는 확장 프로그램입니다.",
+        "description": "단순히 버튼을 누르는 것 만으로 화질을 1080p로 고정할 수 있습니다."
+    }
+}

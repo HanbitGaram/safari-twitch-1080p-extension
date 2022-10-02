@@ -16,14 +16,14 @@ function applicationLoop(){
 
     if(
         typeof currentLocation.split("/")[4] !== 'undefined'
-        || currentLocation.split("/")[3] === 'videos'
+        || currentLocation.split("/")[3]==='videos'
         || typeof currentLocation.split("/")[3] === 'undefined'
-        || document.body.querySelector("video") === null
+        || document.body.querySelector("video")===null
     ){
         return false;
     }
-    
-    fetch("https://api.twitch.tyo.kwabang.net/hls/"+currentLocation.split("/")[3])
+
+    fetch("https://api.twitch.kwabang.net/hls/"+currentLocation.split("/")[3])
         .then((response) => response.json())
         .then((data) => {
             videoObject.src=data[0];
