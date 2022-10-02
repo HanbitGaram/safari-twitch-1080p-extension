@@ -1,4 +1,7 @@
 # 📺 Twitch Korea 1080p Safari Extension
+
+![Image](https://github.com/HanbitGaram/safari-twitch-1080p-extension/blob/main/twitch-1080p%20Extension/Resources/images/128.png?raw=true)
+
 ## 🐕 What is this?
 Twitch has reduced the image quality to 720p only in 🇰🇷 Korea due to the issue of the Net Neutrality Bill in 🇰🇷 Korea.
 
