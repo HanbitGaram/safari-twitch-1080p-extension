@@ -1,0 +1,36 @@
+
+/* Class = "NSMenuItem"; title = "twitch-1080p"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "twitch-1080p";
+
+/* Class = "NSMenuItem"; title = "Quit twitch-1080p"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit twitch-1080p";
+
+/* Class = "NSMenuItem"; title = "About twitch-1080p"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About twitch-1080p";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "twitch-1080p Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "twitch-1080p Help";
+
+/* Class = "NSWindow"; title = "twitch-1080p"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "twitch-1080p";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Hide twitch-1080p"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide twitch-1080p";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSMenu"; title = "twitch-1080p"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "twitch-1080p";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Help";

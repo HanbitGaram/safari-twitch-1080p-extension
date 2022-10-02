@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9880A8FF28E9B75B00982854 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = 9880A8FE28E9B75B00982854 /* app.js */; };
 		98D8ED7D28E9A945003611C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8ED7C28E9A945003611C3 /* AppDelegate.swift */; };
 		98D8ED8128E9A945003611C3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED7F28E9A945003611C3 /* Main.html */; };
 		98D8ED8328E9A945003611C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D8ED8228E9A945003611C3 /* Icon.png */; };
@@ -23,7 +24,6 @@
 		98D8EDB428E9A947003611C3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB328E9A947003611C3 /* _locales */; };
 		98D8EDB628E9A947003611C3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB528E9A947003611C3 /* images */; };
 		98D8EDB828E9A947003611C3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB728E9A947003611C3 /* manifest.json */; };
-		98D8EDBA28E9A947003611C3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDB928E9A947003611C3 /* background.js */; };
 		98D8EDBC28E9A947003611C3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDBB28E9A947003611C3 /* content.js */; };
 		98D8EDBE28E9A947003611C3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDBD28E9A947003611C3 /* popup.html */; };
 		98D8EDC028E9A947003611C3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 98D8EDBF28E9A947003611C3 /* popup.css */; };
@@ -69,6 +69,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9880A8FE28E9B75B00982854 /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		9880A90028E9E60A00982854 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		9880A90128E9E60A00982854 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = ko; path = ../ko.lproj/Main.html; sourceTree = "<group>"; };
 		98D8ED7928E9A945003611C3 /* twitch-1080p.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitch-1080p.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D8ED7C28E9A945003611C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D8ED8028E9A945003611C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -90,7 +93,6 @@
 		98D8EDB328E9A947003611C3 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		98D8EDB528E9A947003611C3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		98D8EDB728E9A947003611C3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		98D8EDB928E9A947003611C3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		98D8EDBB28E9A947003611C3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		98D8EDBD28E9A947003611C3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		98D8EDBF28E9A947003611C3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				98D8EDC328E9A947003611C3 /* Info.plist */,
 				98D8EDC428E9A947003611C3 /* twitch_1080p_Extension.entitlements */,
 				98D8EDB228E9A947003611C3 /* Resources */,
+				9880A8FE28E9B75B00982854 /* app.js */,
 			);
 			path = "twitch-1080p Extension";
 			sourceTree = "<group>";
@@ -212,7 +215,6 @@
 				98D8EDB328E9A947003611C3 /* _locales */,
 				98D8EDB528E9A947003611C3 /* images */,
 				98D8EDB728E9A947003611C3 /* manifest.json */,
-				98D8EDB928E9A947003611C3 /* background.js */,
 				98D8EDBB28E9A947003611C3 /* content.js */,
 				98D8EDBD28E9A947003611C3 /* popup.html */,
 				98D8EDBF28E9A947003611C3 /* popup.css */,
@@ -322,13 +324,14 @@
 					};
 				};
 			};
-			buildConfigurationList = 98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p" */;
+			buildConfigurationList = 98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 98D8ED7028E9A944003611C3;
 			productRefGroup = 98D8ED7A28E9A945003611C3 /* Products */;
@@ -375,12 +378,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D8EDBA28E9A947003611C3 /* background.js in Resources */,
 				98D8EDC028E9A947003611C3 /* popup.css in Resources */,
 				98D8EDBE28E9A947003611C3 /* popup.html in Resources */,
 				98D8EDB628E9A947003611C3 /* images in Resources */,
 				98D8EDB828E9A947003611C3 /* manifest.json in Resources */,
 				98D8EDB428E9A947003611C3 /* _locales in Resources */,
+				9880A8FF28E9B75B00982854 /* app.js in Resources */,
 				98D8EDBC28E9A947003611C3 /* content.js in Resources */,
 				98D8EDC228E9A947003611C3 /* popup.js in Resources */,
 			);
@@ -448,6 +451,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				98D8ED8028E9A945003611C3 /* Base */,
+				9880A90128E9E60A00982854 /* ko */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
@@ -456,6 +460,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				98D8ED8B28E9A945003611C3 /* Base */,
+				9880A90028E9E60A00982854 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -467,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -528,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -583,12 +590,13 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "twitch-1080p Extension/twitch_1080p_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 556F5FXFM6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "twitch-1080p Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p Extension";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,7 +604,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -614,12 +622,13 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "twitch-1080p Extension/twitch_1080p_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 556F5FXFM6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "twitch-1080p Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "twitch-1080p Extension";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -627,7 +636,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -787,7 +796,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p" */ = {
+		98D8ED7428E9A944003611C3 /* Build configuration list for PBXProject "twitch-1080p1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98D8EDC528E9A947003611C3 /* Debug */,
