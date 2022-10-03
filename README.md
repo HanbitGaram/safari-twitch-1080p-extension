@@ -17,6 +17,9 @@ This extension resolves related issues by forcing the server to replace it with 
 3. If the build fails, replace the signature.
 4. Enjoy your ⏰ time.
 
+### 📥 Download
+- [twitch-1080p.app](https://github.com/HanbitGaram/safari-twitch-1080p-extension/releases/download/v1.0.9/twitch-1080p.app.zip)
+- [twitch-1080p.pkg](https://github.com/HanbitGaram/safari-twitch-1080p-extension/releases/download/v1.0.9/twitch-1080p.pkg)
 
 ## 🔒 Privacy Statement
 - [Privacy Statement (Notion)](https://www.notion.so/leesangmin/1080-5a55184597da48f68db12883bb8540d6)
