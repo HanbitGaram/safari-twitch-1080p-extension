@@ -9,7 +9,7 @@ This extension resolves related issues by forcing the server to replace it with 
 
 ## 🗄️ How to install
 ### 🍎 App Store
-- ~~[App Store Content](https://apps.apple.com/kr/app/%EC%82%AC%ED%8C%8C%EB%A6%AC-%ED%8A%B8%EC%9C%84%EC%B9%98-1080p-%ED%99%95%EC%9E%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/id6443646568)~~  - App Reject
+- ~~[App Store Content](https://apps.apple.com/kr/app/%EC%82%AC%ED%8C%8C%EB%A6%AC-%ED%8A%B8%EC%9C%84%EC%B9%98-1080p-%ED%99%95%EC%9E%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/id6443646568)~~  - App Reject : [(reason)](https://github.com/HanbitGaram/safari-twitch-1080p-extension/issues/1)
 
 ### ⚓ Direct installation
 1. Download the 🐙 GitHub file.
